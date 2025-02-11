@@ -19,10 +19,14 @@ function App() {
           onClick={()=>setColor("green")} 
           className='outline-none px-4 rounded-2xl'
           style={{backgroundColor:"green"}}> green </button>
+          
+
           <button
           onClick={()=>setColor("purple")}
           className='outline-none px-4 rounded-2xl'
           style={{backgroundColor:"purple"}}> purple </button>
+
+
           <button 
           onClick={()=>setColor("blue")}
           className='outline-none px-4 rounded-2xl'

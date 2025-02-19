@@ -34,7 +34,7 @@ import { useState,useRef } from 'react'
 
 function App() {
   const [timer,setTimer] = useState(0)
-  const intervalRef = useRef()
+  const intervalRef = useRef(null)
 
   const start = () => {
     if(intervalRef.current !== null) return
